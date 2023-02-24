@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body{
+    background-color: rgb(109, 109, 109);
+    max-width: 80vw;
+    margin: auto;
+    color: aliceblue;
+    font-family: 'Gloock', serif;
+}
+
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+nav#accueil{
+    position: sticky;
+}
+
+ul{
+    background-color: beige;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(160, 130, 33);
+}
+
+h2{
+    color: yellowgreen;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+h3{
+    color: aqua;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
